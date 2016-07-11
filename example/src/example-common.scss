@@ -1,0 +1,69 @@
+$modal-slideshow-prefix: 'modal-slideshow' !default;
+
+// Disable page scroll when the modal is opened
+html.#{$modal-slideshow-prefix}--opened .mdl-layout__content {
+  overflow-y: hidden;
+}
+
+// Fix media ratio
+.#{$modal-slideshow-prefix}__media {
+  position: relative;
+  width: 100%;
+  padding-bottom: 66.66666667%;
+}
+
+.#{$modal-slideshow-prefix}__media img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+// Media loader
+.#{$modal-slideshow-prefix}__media:before {
+  content: " ";
+
+  display: block;
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin: -20px;
+
+  background-color: #ffffff;
+
+  border-radius: 100%;
+
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .#{$modal-slideshow-prefix}__media {
+    height: auto;
+  }
+
+}

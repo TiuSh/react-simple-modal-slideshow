@@ -1,0 +1,9 @@
+$modal-slideshow-prefix: 'modal-slideshow-example2';
+@import '../../src/simple-modal-slideshow.scss';
+@import './example-common.scss';
+
+// Content padding
+.modal-slideshow-example2__content {
+  padding: 24px;
+}
+

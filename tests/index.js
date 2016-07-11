@@ -1,0 +1,1 @@
+import './SimpleModalSlideshow-test.js';
