@@ -10,6 +10,10 @@ $ npm install react-simple-modal-slideshow
 
 ## Demo
 
+https://tiush.github.io/react-simple-modal-slideshow/
+
+Or locally:
+
 ```
 $ git clone https://github.com/TiuSh/react-simple-modal-slideshow.git
 $ cd react-simple-modal-slideshow
