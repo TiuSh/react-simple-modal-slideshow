@@ -24,8 +24,8 @@
     "react-component"
   ],
   "peerDependencies": {
-    "react": "^15.2.0",
-    "react-addons-css-transition-group": "^15.1.0"
+    "react": "^15.0.0",
+    "react-addons-css-transition-group": "^15.0.0"
   },
   "devDependencies": {
     "babel": "^6.5.2",
@@ -60,10 +60,10 @@
     "merge-stream": "^1.0.0",
     "mocha": "^2.5.3",
     "node-sass": "^3.8.0",
-    "react": "^15.1.0",
-    "react-addons-css-transition-group": "^15.1.0",
-    "react-addons-test-utils": "^15.2.0",
-    "react-dom": "^15.1.0",
+    "react": "^15.2.1",
+    "react-addons-css-transition-group": "^15.2.1",
+    "react-addons-test-utils": "^15.2.1",
+    "react-dom": "^15.2.1",
     "run-sequence": "^1.2.1",
     "simple-mock": "^0.7.0",
     "webpack": "^1.13.1",
