@@ -1,6 +1,6 @@
 {
   "name": "react-simple-modal-slideshow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple React modal media slideshow with CSS powered animations",
   "main": "lib/SimpleModalSlideshow.js",
   "author": "TiuSh <masy.mathieu@gmail.com>",
