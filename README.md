@@ -1,4 +1,5 @@
 # react-simple-modal-slideshow
+[![Build Status](https://travis-ci.org/TiuSh/react-simple-modal-slideshow.svg?branch=master)](https://travis-ci.org/TiuSh/react-simple-modal-slideshow)
 
 A simple React modal media slideshow with CSS powered animations.
 

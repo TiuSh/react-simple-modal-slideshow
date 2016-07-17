@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "./node_modules/.bin/gulp build",
-    "test": "./node_modules/.bin/karma start",
+    "test": "./node_modules/.bin/karma start --browsers Firefox --single-run",
     "dev": "./node_modules/.bin/gulp dev",
     "prepublish": "npm build"
   },
@@ -54,6 +54,7 @@
     "karma": "^1.1.0",
     "karma-chrome-launcher": "^1.0.1",
     "karma-cli": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
     "karma-mocha": "^1.1.1",
     "karma-webpack": "^1.7.0",
     "lorem-ipsum": "^1.0.3",
